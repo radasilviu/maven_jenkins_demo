@@ -17,6 +17,7 @@ pipeline {
                        goals: 'clean install ${maven_proxy} -Dmaven.test.skip=true',
                        deployerId: "MAVEN_DEPLOYER",
                        resolverId: "MAVEN_RESOLVER"
+                       )
                    }
                }
   }
