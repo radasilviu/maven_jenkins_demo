@@ -6,7 +6,7 @@ pipeline {
                       rtMavenRun (
                           // The tool name of maven is defined in Jenkins Configurations
                           tool: 'MavenJenkins',
-                          pom: 'case-api-service/pom.xml',
+                          pom: 'pom.xml',
                           // Maven build command
                           // Debug Mode
                           //goals: 'clean install ${maven_proxy} -X -Dmaven.test.skip=true',
